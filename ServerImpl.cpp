@@ -115,10 +115,9 @@ void srv::Server::handleUploadFile(AsyncWebServerRequest* request, const String&
 
 void srv::Server::handleUploadEnd(AsyncWebServerRequest* request)
 {
-	Serial.println("UPLOAD END");
 	if (!request->_tempObject)
 		return;
-	Serial.println("PROCEED");
+
 	AsyncWebServerResponse* response = reinterpret_cast<AsyncWebServerResponse*>(request->_tempObject);
 	request->send(response);
 	request->_tempObject = nullptr;
