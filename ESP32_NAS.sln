@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESP32_NAS", "ESP32_NAS.vcxproj", "{BAD55BB3-146B-4042-A248-FA03E4BA65A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLitePlusPlus", "..\SQLitePlusPlus\SQLitePlusPlus.vcxitems", "{C6789903-E3C2-498E-88E2-FB67E5C366AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JWT", "..\JWT\JWT.vcxitems", "{32B1D238-1178-4620-A0AD-5EA278FE0F53}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VFS", "..\VFS\VFS.vcxitems", "{816663B6-A53E-4E34-8558-89FD8BA07FB3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Authentication", "..\Authentication\Authentication.vcxitems", "{84425930-45E9-4FE3-9227-40896DFB817A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|ARM.Build.0 = Debug|ARM
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|ARM.Deploy.0 = Debug|ARM
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|ARM64.Build.0 = Debug|ARM64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|x64.ActiveCfg = Debug|x64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|x64.Build.0 = Debug|x64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|x64.Deploy.0 = Debug|x64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|x86.ActiveCfg = Debug|x86
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|x86.Build.0 = Debug|x86
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Debug|x86.Deploy.0 = Debug|x86
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|ARM.ActiveCfg = Release|ARM
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|ARM.Build.0 = Release|ARM
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|ARM.Deploy.0 = Release|ARM
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|ARM64.ActiveCfg = Release|ARM64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|ARM64.Build.0 = Release|ARM64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|ARM64.Deploy.0 = Release|ARM64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|x64.ActiveCfg = Release|x64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|x64.Build.0 = Release|x64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|x64.Deploy.0 = Release|x64
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|x86.ActiveCfg = Release|x86
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|x86.Build.0 = Release|x86
+		{BAD55BB3-146B-4042-A248-FA03E4BA65A1}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CA41F81-9547-44CE-AF4E-2F8EB012E410}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\JWT\JWT.vcxitems*{32b1d238-1178-4620-a0ad-5ea278fe0f53}*SharedItemsImports = 9
+		..\VFS\VFS.vcxitems*{816663b6-a53e-4e34-8558-89fd8ba07fb3}*SharedItemsImports = 9
+		..\Authentication\Authentication.vcxitems*{84425930-45e9-4fe3-9227-40896dfb817a}*SharedItemsImports = 9
+		..\Authentication\Authentication.vcxitems*{bad55bb3-146b-4042-a248-fa03e4ba65a1}*SharedItemsImports = 4
+		..\JWT\JWT.vcxitems*{bad55bb3-146b-4042-a248-fa03e4ba65a1}*SharedItemsImports = 4
+		..\SQLitePlusPlus\SQLitePlusPlus.vcxitems*{bad55bb3-146b-4042-a248-fa03e4ba65a1}*SharedItemsImports = 4
+		..\VFS\VFS.vcxitems*{bad55bb3-146b-4042-a248-fa03e4ba65a1}*SharedItemsImports = 4
+		..\SQLitePlusPlus\SQLitePlusPlus.vcxitems*{c6789903-e3c2-498e-88e2-fb67e5c366ae}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal
